@@ -1,0 +1,34 @@
+body {
+    background: url("../img/bg.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.linked-list {
+    display: flex;
+    align-items: center;
+}
+
+.node {
+    border: 1px solid #333;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.intersection {
+    background-color: #80e26c;
+    /* Light coral color for intersection node */
+}
